@@ -7,6 +7,7 @@ make clean
 ./qalsh -alg 3 -n 1000000 -d 128 -B 4096 -p 2 -z 0.0 -c 1.5 -ds /data/sdb/local/pqdata/bigann/sift100m.txt -df /data/sdb/local/pqdata/bigann/qalsh/sift1m/ -of /data/sdb/local/pqdata/bigann/qalsh/sift1m/
 # test
 ./qalsh -alg 4 -n 1000000 -qn 100 -d 128 -qs /data/sdb/local/pqdata/bigann/query.txt -ts /data/sdb/local/pqdata/bigann/qalsh/sift1m/gtL2.txt  -df /data/sdb/local/pqdata/bigann/qalsh/sift1m/ -of /data/sdb/local/pqdata/bigann/qalsh/sift1m/
+
 # ------------------------------------------------------------------------------
 #  Parameters
 # ------------------------------------------------------------------------------
