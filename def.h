@@ -23,8 +23,10 @@ typedef char Block[];
 // -----------------------------------------------------------------------------
 //  Constants
 // -----------------------------------------------------------------------------
-const int   TOPK[]         = { 1, 2, 5, 10, 20, 50, 100 };
-const int   MAX_ROUND      = 7;
+const int   TOPK[]         = { 100 };
+const int   MAX_ROUND      = 1;
+//const int   TOPK[]         = { 1, 2, 5, 10, 20, 50, 100 };
+//const int   MAX_ROUND      = 7;
 const int   MAXK           = TOPK[MAX_ROUND - 1];
 
 const float MAXREAL        = 3.402823466e+38F;

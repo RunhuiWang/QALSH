@@ -53,7 +53,7 @@ int read_txt_data(					// read data (text) from disk
 		fscanf(fp, "\n");
 		++i;
 	}
-	assert(feof(fp) && i == n);
+	//assert(feof(fp) && i == n);
 	fclose(fp);
 
 	gettimeofday(&g_end_time, NULL);
