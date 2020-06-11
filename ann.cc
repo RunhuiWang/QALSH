@@ -314,16 +314,31 @@ int knn_of_qalsh(					// k-NN search of qalsh
 		g_ratio  = 0.0f;
 		g_recall = 0.0f;
 		g_io     = 0;
+        float mAP = 0;
 		for (int i = 0; i < qn; ++i) {
 			list->reset();
 			g_io += lsh->knn(top_k, query[i], data_folder, list);
 			g_recall += calc_recall(top_k, R[i], list);
 
-			float ratio = 0.0f;
+			double ratio = 0.0f;
 			for (int j = 0; j < top_k; ++j) {
 				ratio += list->ith_key(j) / R[i][j].key_;
 			}
 			g_ratio += ratio / top_k;
+            // mAP
+            double score = 0;
+            double apk = 0; // average precision @ k
+            for (int k = 1; k <= top_k; k ++) {
+                double score = 0;
+                for (int ii = 0; ii < k; ii ++) {
+                    for (int jj = 0; jj < k; jj ++) {
+                        if (R[i][ii].id_ == list->ith_id(jj))
+                            score ++;
+                    }
+                }
+                apk += score/k;
+            }
+            mAP += apk/top_k;
 		}
 		delete list; list = NULL;
 		gettimeofday(&g_end_time, NULL);
@@ -335,8 +350,8 @@ int knn_of_qalsh(					// k-NN search of qalsh
 		g_runtime = (g_runtime * 1000.0f) / qn;
 		g_io      = (long long) ceil((float) g_io / (float) qn);
 
-		printf("  %3d\t\t%.4f\t\t%lld\t\t%.2f\t\t%.2f\n", top_k, g_ratio, 
-			g_io, g_runtime, g_recall);
+		printf("  %3d\t\t%.4f\t\t%lld\t\t%.2f\t\t%.2f\t\t%.2f\n", top_k, g_ratio, 
+			g_io, g_runtime, g_recall, mAP/qn);
 		fprintf(fp, "%d\t%f\t%lld\t%f\t%f\n", top_k, g_ratio, g_io, 
 			g_runtime, g_recall);
 	}

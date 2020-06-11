@@ -1,0 +1,352 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANGLE	def.h	/^const float ANGLE          = PI \/ 8.0f;$/;"	v
+BFHEAD_LENGTH	def.h	/^const int   BFHEAD_LENGTH  = SIZEINT * 2;$/;"	v
+BIndexNode	b_node.cc	/^BIndexNode::BIndexNode()			\/\/ constructor$/;"	f	class:BIndexNode
+BIndexNode	b_node.h	/^class BIndexNode : public BNode {$/;"	c
+BLeafNode	b_node.cc	/^BLeafNode::BLeafNode()				\/\/ constructor$/;"	f	class:BLeafNode
+BLeafNode	b_node.h	/^class BLeafNode : public BNode {$/;"	c
+BNode	b_node.cc	/^BNode::BNode()						\/\/ constructor$/;"	f	class:BNode
+BNode	b_node.h	/^class BNode {$/;"	c
+BTree	b_tree.cc	/^BTree::BTree()						\/\/ default constructor$/;"	f	class:BTree
+BTree	b_tree.h	/^class BTree {$/;"	c
+B_	qalsh.h	/^	int   B_;						\/\/ page size$/;"	m	class:QALSH
+B_	qalsh_plus.h	/^	int   B_;						\/\/ page size$/;"	m	class:QALSH_PLUS
+Block	def.h	/^typedef char Block[];$/;"	t
+BlockFile	block_file.cc	/^BlockFile::BlockFile(				\/\/ constructor$/;"	f	class:BlockFile
+BlockFile	block_file.h	/^class BlockFile {$/;"	c
+Blocks	qalsh_plus.h	/^	Blocks() { n_pts_ = -1; index_ = NULL; lsh_ = NULL; }$/;"	f	struct:Blocks
+Blocks	qalsh_plus.h	/^struct Blocks {$/;"	s
+CANDIDATES	def.h	/^const int   CANDIDATES     = 100;$/;"	v
+CPPFLAGS	Makefile	/^CPPFLAGS=-w -O3$/;"	m
+CXX	Makefile	/^CXX=g++ -std=c++11$/;"	m
+DIFF	def.h	16;"	d
+E	def.h	/^const float E              = 2.7182818F;$/;"	v
+FLOATZERO	def.h	/^const float FLOATZERO      = 1e-6F;$/;"	v
+KD_Leaf	kd_node.cc	/^KD_Leaf::KD_Leaf(					\/\/ constructor$/;"	f	class:KD_Leaf
+KD_Leaf	kd_node.h	/^class KD_Leaf : public KD_Node {$/;"	c
+KD_Node	kd_node.h	/^class KD_Node {$/;"	c
+KD_Rect	kd_tree.cc	/^KD_Rect::KD_Rect(					\/\/ constrcutor$/;"	f	class:KD_Rect
+KD_Rect	kd_tree.cc	/^KD_Rect::KD_Rect(					\/\/ constructor$/;"	f	class:KD_Rect
+KD_Rect	kd_tree.cc	/^KD_Rect::KD_Rect(					\/\/ copy constructor$/;"	f	class:KD_Rect
+KD_Rect	kd_tree.h	/^class KD_Rect {$/;"	c
+KD_Split	kd_node.cc	/^KD_Split::KD_Split(					\/\/ constructor$/;"	f	class:KD_Split
+KD_Split	kd_node.h	/^class KD_Split : public KD_Node {$/;"	c
+KD_Tree	kd_tree.cc	/^KD_Tree::KD_Tree(					\/\/ constructor$/;"	f	class:KD_Tree
+KD_Tree	kd_tree.h	/^class KD_Tree {$/;"	c
+LEAF_NODE_SIZE	def.h	/^const int   LEAF_NODE_SIZE = 64;$/;"	v
+L_	qalsh_plus.h	/^	int   L_;						\/\/ number of projection (drusilla)$/;"	m	class:QALSH_PLUS
+MAX	def.h	13;"	d
+MAXINT	def.h	/^const int   MAXINT         = 2147483647;$/;"	v
+MAXK	def.h	/^const int   MAXK           = TOPK[MAX_ROUND - 1];$/;"	v
+MAXREAL	def.h	/^const float MAXREAL        = 3.402823466e+38F;$/;"	v
+MAX_ROUND	def.h	/^const int   MAX_ROUND      = 7;$/;"	v
+MIN	def.h	12;"	d
+MININT	def.h	/^const int   MININT         = -MAXINT;$/;"	v
+MINREAL	def.h	/^const float MINREAL        = -MAXREAL;$/;"	v
+M_	qalsh_plus.h	/^	int   M_;						\/\/ number of candidates (drusilla)$/;"	m	class:QALSH_PLUS
+MinK_List	pri_queue.cc	/^MinK_List::MinK_List(				\/\/ constructor (given max size)$/;"	f	class:MinK_List
+MinK_List	pri_queue.h	/^class MinK_List {$/;"	c
+OBJS	Makefile	/^OBJS=${SRCS:.cc=.o}$/;"	m
+PI	def.h	/^const float PI             = 3.141592654F;$/;"	v
+Page	qalsh.h	/^struct Page {$/;"	s
+QALSH	qalsh.cc	/^QALSH::QALSH()						\/\/ constructor$/;"	f	class:QALSH
+QALSH	qalsh.h	/^class QALSH {$/;"	c
+QALSH_PLUS	qalsh_plus.cc	/^QALSH_PLUS::QALSH_PLUS()			\/\/ default constructor$/;"	f	class:QALSH_PLUS
+QALSH_PLUS	qalsh_plus.h	/^class QALSH_PLUS {$/;"	c
+Result	pri_queue.h	/^struct Result {						\/\/ basic data structure $/;"	s
+ResultComp	pri_queue.cc	/^int ResultComp(						\/\/ compare function for qsort (ascending)$/;"	f
+ResultCompDesc	pri_queue.cc	/^int ResultCompDesc(					\/\/ compare function for qsort (descending)$/;"	f
+SEEK_CUR	def.h	20;"	d
+SEEK_END	def.h	21;"	d
+SEEK_SET	def.h	19;"	d
+SIZEBOOL	def.h	/^const int   SIZEBOOL       = (int) sizeof(bool);$/;"	v
+SIZECHAR	def.h	/^const int   SIZECHAR       = (int) sizeof(char);$/;"	v
+SIZEDOUBLE	def.h	/^const int   SIZEDOUBLE     = (int) sizeof(double);$/;"	v
+SIZEFLOAT	def.h	/^const int   SIZEFLOAT      = (int) sizeof(float);$/;"	v
+SIZEINT	def.h	/^const int   SIZEINT        = (int) sizeof(int);$/;"	v
+SQR	def.h	14;"	d
+SRCS	Makefile	/^SRCS=random.cc pri_queue.cc util.cc block_file.cc b_node.cc b_tree.cc \\$/;"	m
+SUM	def.h	15;"	d
+SWAP	def.h	17;"	d
+TOPK	def.h	/^const int   TOPK[]         = { 1, 2, 5, 10, 20, 50, 100 };$/;"	v
+__ANN_H	ann.h	2;"	d
+__BLOCK_FILE_H	block_file.h	2;"	d
+__B_NODE_H	b_node.h	2;"	d
+__B_TREE_H	b_tree.h	2;"	d
+__DEF_H	def.h	2;"	d
+__KD_NODE_H	kd_node.h	2;"	d
+__KD_TREE_H	kd_tree.h	2;"	d
+__PRI_QUEUE_H	pri_queue.h	2;"	d
+__QALSH_H	qalsh.h	2;"	d
+__QALSH_PLUS_H	qalsh_plus.h	2;"	d
+__RANDOM_H	random.h	2;"	d
+__UTIL_H	util.h	2;"	d
+a_	qalsh.h	/^	float **a_;						\/\/ hash functions$/;"	m	class:QALSH
+act_block_	block_file.h	/^	int act_block_;					\/\/ block num of fp position$/;"	m	class:BlockFile
+add_new_child	b_node.cc	/^void BIndexNode::add_new_child( \/\/ add a new entry from its child node$/;"	f	class:BIndexNode
+add_new_child	b_node.cc	/^void BLeafNode::add_new_child( 		\/\/ add new child by input id and key$/;"	f	class:BLeafNode
+append_block	block_file.cc	/^int BlockFile::append_block(		\/\/ append new block at the end of file$/;"	f	class:BlockFile
+block_	b_node.h	/^	int   block_;					\/\/ addr of disk for this node$/;"	m	class:BNode
+block_length_	block_file.h	/^	int block_length_;				\/\/ length of a block$/;"	m	class:BlockFile
+blocks_	qalsh_plus.h	/^	std::vector<Blocks*> blocks_;	\/\/ blocks$/;"	m	class:QALSH_PLUS
+bnd_box_high_	kd_tree.h	/^	float *bnd_box_high_;			\/\/ bounding box - high object$/;"	m	class:KD_Tree
+bnd_box_low_	kd_tree.h	/^	float *bnd_box_low_;			\/\/ bounding box - low  object$/;"	m	class:KD_Tree
+btree_	b_node.h	/^	BTree *btree_;					\/\/ b-tree of this node$/;"	m	class:BNode
+build	qalsh.cc	/^int QALSH::build(					\/\/ build index$/;"	f	class:QALSH
+build	qalsh_plus.cc	/^int QALSH_PLUS::build(				\/\/ build index		$/;"	f	class:QALSH_PLUS
+bulkload	b_tree.cc	/^int BTree::bulkload(				\/\/ bulkload a tree from memory$/;"	f	class:BTree
+bulkload	qalsh.cc	/^int QALSH::bulkload(				\/\/ build m b-trees by bulkloading$/;"	f	class:QALSH
+calc_box_dist	kd_tree.cc	/^float KD_Tree::calc_box_dist(		\/\/ compute distance from point to box$/;"	f	class:KD_Tree
+calc_dist	qalsh.cc	/^inline float QALSH::calc_dist(		\/\/ calc projected distance$/;"	f	class:QALSH
+calc_encl_rect	kd_tree.cc	/^void KD_Tree::calc_encl_rect(		\/\/ calc smallest enclosing rectangle$/;"	f	class:KD_Tree
+calc_hash_value	qalsh.cc	/^float QALSH::calc_hash_value( 		\/\/ calc hash value$/;"	f	class:QALSH
+calc_inner_product	util.cc	/^float calc_inner_product(			\/\/ calc inner product$/;"	f
+calc_l0_prob	qalsh.cc	/^inline float QALSH::calc_l0_prob(	\/\/ calc prob <p1_> and <p2_> of L1\/2 dist$/;"	f	class:QALSH
+calc_l0_sqrt	util.cc	/^float calc_l0_sqrt(					\/\/ calc L_{0.5} sqrt distance$/;"	f
+calc_l1_dist	util.cc	/^float calc_l1_dist(					\/\/ calc Manhattan distance$/;"	f
+calc_l1_prob	qalsh.cc	/^inline float QALSH::calc_l1_prob(	\/\/ calc prob <p1_> and <p2_> of L1 dist$/;"	f	class:QALSH
+calc_l2_prob	qalsh.cc	/^inline float QALSH::calc_l2_prob(	\/\/ calc prob <p1_> and <p2_> of L2 dist$/;"	f	class:QALSH
+calc_l2_sqr	util.cc	/^float calc_l2_sqr(					\/\/ calc l2 square distance$/;"	f
+calc_lp_dist	util.cc	/^float calc_lp_dist(					\/\/ calc L_{p} norm$/;"	f
+calc_lp_pow	util.cc	/^float calc_lp_pow(					\/\/ calc L_p pow_p distance$/;"	f
+calc_recall	util.cc	/^float calc_recall(					\/\/ calc recall (percentage)$/;"	f
+calc_shift_data	qalsh_plus.cc	/^void QALSH_PLUS::calc_shift_data(	\/\/ calculate shift data objects$/;"	f	class:QALSH_PLUS
+calc_stat	kd_tree.cc	/^void KD_Tree::calc_stat(			\/\/ calc median and variance value$/;"	f	class:KD_Tree
+capacity_	b_node.h	/^	int   capacity_;				\/\/ max num of entries can be stored$/;"	m	class:BNode
+capacity_keys_	b_node.h	/^	int capacity_keys_;				\/\/ max num of keys can be stored$/;"	m	class:BLeafNode
+cauchy	random.cc	/^float cauchy(						\/\/ r.v. from Cauchy(gamma, delta)$/;"	f
+cd_bnds_	kd_node.h	/^	float cd_bnds_[2];				\/\/ cutting bounds$/;"	m	class:KD_Split
+child_	kd_node.h	/^	KD_Node *child_[2];				\/\/ children of node$/;"	m	class:KD_Split
+create_dir	util.cc	/^void create_dir(					\/\/ create directory$/;"	f
+cut_dim_	kd_node.h	/^	int   cut_dim_;					\/\/ cutting dimension$/;"	m	class:KD_Split
+cut_val_	kd_node.h	/^	float cut_val_;					\/\/ cutting value$/;"	m	class:KD_Split
+data_	kd_node.h	/^	const float **data_;			\/\/ data objects$/;"	m	class:KD_Node
+data_	kd_tree.h	/^	const float **data_;			\/\/ data objects$/;"	m	class:KD_Tree
+delete_last_blocks	block_file.cc	/^bool BlockFile::delete_last_blocks(	\/\/ delete last <num> blocks$/;"	f	class:BlockFile
+delete_root	b_tree.cc	/^void BTree::delete_root()		\/\/ delete root of b-tree$/;"	f	class:BTree
+delete_tree_ptr	qalsh.cc	/^void QALSH::delete_tree_ptr(		\/\/ delete the pointers of B+ Trees$/;"	f	class:QALSH
+diff_prob_of_cauchy	random.cc	/^void diff_prob_of_cauchy()			\/\/ curve of p1 - p2 vs. w under cauchy$/;"	f
+diff_prob_of_gaussian	random.cc	/^void diff_prob_of_gaussian()		\/\/ curve of p1 - p2 vs. w under gaussian$/;"	f
+diff_prob_of_levy	random.cc	/^void diff_prob_of_levy()			\/\/ curve of p1 - p2 vs. w under levy$/;"	f
+dim_	kd_node.h	/^	int   dim_;						\/\/ dimension of data objects$/;"	m	class:KD_Node
+dim_	kd_tree.h	/^	int   dim_;						\/\/ dimensionality$/;"	m	class:KD_Tree
+dim_	qalsh.h	/^	int   dim_;						\/\/ dimensionality$/;"	m	class:QALSH
+dim_	qalsh_plus.h	/^	int   dim_;						\/\/ dimensionality$/;"	m	class:QALSH_PLUS
+dirty_	b_node.h	/^	bool  dirty_;					\/\/ if dirty, write back to file$/;"	m	class:BNode
+display	qalsh.cc	/^void QALSH::display()				\/\/ display parameters$/;"	f	class:QALSH
+display	qalsh_plus.cc	/^void QALSH_PLUS::display()			\/\/ display parameters$/;"	f	class:QALSH_PLUS
+dist_io_	qalsh.h	/^	uint64_t dist_io_;				\/\/ io for computing distance$/;"	m	class:QALSH
+drusilla_select	qalsh_plus.cc	/^void QALSH_PLUS::drusilla_select(	\/\/ drusilla select$/;"	f	class:QALSH_PLUS
+file_	b_tree.h	/^	BlockFile *file_;				\/\/ file in disk to store$/;"	m	class:BTree
+file_new	block_file.h	/^	inline bool file_new() 			\/\/ whether this block is modified?$/;"	f	class:BlockFile
+find_position_by_key	b_node.cc	/^int BIndexNode::find_position_by_key($/;"	f	class:BIndexNode
+find_position_by_key	b_node.cc	/^int BLeafNode::find_position_by_key(\/\/ find pos just less than input key$/;"	f	class:BLeafNode
+find_position_by_key	b_node.h	/^	virtual int find_position_by_key(float key) { return -1; }$/;"	f	class:BNode
+find_radius	qalsh.cc	/^float QALSH::find_radius(			\/\/ find proper radius$/;"	f	class:QALSH
+fname_	block_file.h	/^	char fname_[200];				\/\/ file name$/;"	m	class:BlockFile
+fp_	block_file.h	/^	FILE *fp_;						\/\/ file pointer$/;"	m	class:BlockFile
+fread_number	block_file.h	/^	inline int fread_number()		\/\/ read a value (type int)$/;"	f	class:BlockFile
+fwrite_number	block_file.h	/^	inline void fwrite_number(int num) \/\/ write a value (type int)$/;"	f	class:BlockFile
+g_end_time	util.cc	/^timeval  g_end_time;$/;"	v
+g_io	util.cc	/^uint64_t g_io      = 0;$/;"	v
+g_memory	util.cc	/^uint64_t g_memory  = 0;$/;"	v
+g_ratio	util.cc	/^float    g_ratio   = -1.0f;$/;"	v
+g_recall	util.cc	/^float    g_recall  = -1.0f;$/;"	v
+g_runtime	util.cc	/^float    g_runtime = -1.0f;$/;"	v
+g_start_time	util.cc	/^timeval  g_start_time;$/;"	v
+gaussian	random.cc	/^float gaussian(						\/\/ r.v. from N(mean, sigma)$/;"	f
+gaussian_cdf	random.cc	/^float gaussian_cdf(					\/\/ cdf of N(0, 1) in range (-inf, x]$/;"	f
+gaussian_pdf	random.h	/^inline float gaussian_pdf(			\/\/ pdf of N(0, 1)$/;"	f
+get_block	b_node.h	/^	inline int get_block() { return block_; }$/;"	f	class:BNode
+get_block_order	qalsh_plus.cc	/^int QALSH_PLUS::get_block_order(	\/\/ get block order$/;"	f	class:QALSH_PLUS
+get_blocklength	block_file.h	/^	inline int get_blocklength()	\/\/ get block length$/;"	f	class:BlockFile
+get_bytes	block_file.h	/^	inline void get_bytes(char *bytes, int num) \/\/ read <bytes> of length <num>$/;"	f	class:BlockFile
+get_data_filename	util.cc	/^inline void get_data_filename(		\/\/ get file name of data$/;"	f
+get_entry_id	b_node.h	/^	inline int get_entry_id(int index) { $/;"	f	class:BLeafNode
+get_entry_size	b_node.h	/^	virtual inline int get_entry_size() { return 0; }$/;"	f	class:BNode
+get_entry_size	b_node.h	/^	virtual inline int get_entry_size() { return SIZEFLOAT + SIZEINT; }$/;"	f	class:BIndexNode
+get_entry_size	b_node.h	/^	virtual inline int get_entry_size() { return SIZEINT; }$/;"	f	class:BLeafNode
+get_header_size	b_node.h	/^	inline int get_header_size() { return SIZECHAR+SIZEINT*3; } $/;"	f	class:BNode
+get_increment	b_node.h	/^	inline int get_increment() { return LEAF_NODE_SIZE \/ get_entry_size(); }$/;"	f	class:BLeafNode
+get_key	b_node.h	/^	virtual inline float get_key(int index) { $/;"	f	class:BIndexNode
+get_key	b_node.h	/^	virtual inline float get_key(int index) { $/;"	f	class:BLeafNode
+get_key	b_node.h	/^	virtual inline float get_key(int index) { return -1.0f; }$/;"	f	class:BNode
+get_key_of_node	b_node.h	/^	inline float get_key_of_node() { return key_[0]; }	$/;"	f	class:BNode
+get_key_size	b_node.h	/^	inline int get_key_size(int block_length) { \/\/ block length$/;"	f	class:BLeafNode
+get_left_sibling	b_node.cc	/^BIndexNode* BIndexNode::get_left_sibling()$/;"	f	class:BIndexNode
+get_left_sibling	b_node.cc	/^BLeafNode* BLeafNode::get_left_sibling() \/\/ get left-sibling node$/;"	f	class:BLeafNode
+get_left_sibling	b_node.cc	/^BNode* BNode::get_left_sibling()	\/\/ get the left-sibling node$/;"	f	class:BNode
+get_level	b_node.h	/^	inline int get_level() { return level_; }$/;"	f	class:BNode
+get_lp_filename	util.cc	/^inline void get_lp_filename(		\/\/ get file name of L_p norm$/;"	f
+get_num_entries	b_node.h	/^	inline int get_num_entries() { return num_entries_; }$/;"	f	class:BNode
+get_num_keys	b_node.h	/^	inline int get_num_keys() { return num_keys_; }$/;"	f	class:BLeafNode
+get_num_of_blocks	block_file.h	/^	inline int get_num_of_blocks()	\/\/ get number of blocks$/;"	f	class:BlockFile
+get_right_sibling	b_node.cc	/^BIndexNode* BIndexNode::get_right_sibling()$/;"	f	class:BIndexNode
+get_right_sibling	b_node.cc	/^BLeafNode* BLeafNode::get_right_sibling() \/\/ get right sibling node$/;"	f	class:BLeafNode
+get_right_sibling	b_node.cc	/^BNode* BNode::get_right_sibling()	\/\/ get the right-sibling node$/;"	f	class:BNode
+get_son	b_node.h	/^	inline int get_son(int index) {	\/\/ get son indexed by <index>$/;"	f	class:BIndexNode
+get_tree_filename	qalsh.cc	/^inline void QALSH::get_tree_filename( \/\/ get file name of b-tree$/;"	f	class:QALSH
+ground_truth	util.cc	/^int ground_truth(					\/\/ find ground truth$/;"	f
+high_	kd_tree.h	/^	float *high_;					\/\/ rectangle upper bound$/;"	m	class:KD_Rect
+id_	b_node.h	/^	int *id_;						\/\/ object id$/;"	m	class:BLeafNode
+id_	pri_queue.h	/^	int   id_;$/;"	m	struct:Result
+index_	qalsh_plus.h	/^	int   *index_;$/;"	m	struct:Blocks
+index_pos_	qalsh.h	/^	int index_pos_;					\/\/ cur pos of index key$/;"	m	struct:Page
+indexing_of_qalsh	ann.cc	/^int indexing_of_qalsh(				\/\/ indexing of qalsh$/;"	f
+indexing_of_qalsh_plus	ann.cc	/^int indexing_of_qalsh_plus(			\/\/ indexing of qalsh+$/;"	f
+init	b_node.cc	/^void BIndexNode::init(				\/\/ init a new node, which not exist$/;"	f	class:BIndexNode
+init	b_node.cc	/^void BLeafNode::init(				\/\/ init a new node, which not exist$/;"	f	class:BLeafNode
+init	b_node.cc	/^void BNode::init(					\/\/ init a new node, which not exist$/;"	f	class:BNode
+init	b_tree.cc	/^void BTree::init(					\/\/ init a new tree$/;"	f	class:BTree
+init_restore	b_node.cc	/^void BIndexNode::init_restore(		\/\/ load an exist node from disk to init$/;"	f	class:BIndexNode
+init_restore	b_node.cc	/^void BLeafNode::init_restore(		\/\/ load an exist node from disk to init$/;"	f	class:BLeafNode
+init_restore	b_node.cc	/^void BNode::init_restore(			\/\/ load an exist node from disk to init$/;"	f	class:BNode
+init_restore	b_tree.cc	/^void BTree::init_restore(			\/\/ load the tree from a tree file$/;"	f	class:BTree
+init_search_params	qalsh.cc	/^void QALSH::init_search_params(		\/\/ init parameters for k-NN search$/;"	f	class:QALSH
+insert	pri_queue.cc	/^float MinK_List::insert(			\/\/ insert item (inline for speed)$/;"	f	class:MinK_List
+inside	kd_tree.cc	/^bool KD_Rect::inside(				\/\/ whether a point inside the rectangle$/;"	f	class:KD_Rect
+isFull	b_node.h	/^	inline bool isFull() { $/;"	f	class:BNode
+isFull	pri_queue.h	/^	inline bool isFull() { if (num_ >= k_) return true; else return false; }$/;"	f	class:MinK_List
+ith_id	pri_queue.h	/^	inline int ith_id(int i) { return (i<num_ ? list_[i].id_ : MININT); }$/;"	f	class:MinK_List
+ith_key	pri_queue.h	/^	inline float ith_key(int i) { return (i<num_ ? list_[i].key_ : MAXREAL); }$/;"	f	class:MinK_List
+k_	pri_queue.h	/^	int    k_;						\/\/ max numner of keys$/;"	m	class:MinK_List
+kd_tree_partition	qalsh_plus.cc	/^void QALSH_PLUS::kd_tree_partition(	\/\/ kd-tree partition$/;"	f	class:QALSH_PLUS
+key_	b_node.h	/^	float *key_;					\/\/ keys$/;"	m	class:BNode
+key_	pri_queue.h	/^	float key_;$/;"	m	struct:Result
+knn	qalsh.cc	/^uint64_t QALSH::knn(				\/\/ k-NN search$/;"	f	class:QALSH
+knn	qalsh_plus.cc	/^uint64_t QALSH_PLUS::knn(			\/\/ k-NN search$/;"	f	class:QALSH_PLUS
+knn_of_qalsh	ann.cc	/^int knn_of_qalsh(					\/\/ k-NN search of qalsh$/;"	f
+knn_of_qalsh_plus	ann.cc	/^int knn_of_qalsh_plus(				\/\/ k-NN search of qalsh+$/;"	f
+l_	qalsh.h	/^	int   l_;						\/\/ collision threshold$/;"	m	class:QALSH
+leaf_	kd_tree.h	/^	int   leaf_;					\/\/ leaf size of kd-tree$/;"	m	class:KD_Tree
+leaf_node_	qalsh.h	/^	BLeafNode *leaf_node_;			\/\/ leaf node (level = 0)$/;"	m	struct:Page
+leaf_pos_	qalsh.h	/^	int leaf_pos_;					\/\/ cur pos of leaf node$/;"	m	struct:Page
+left_sibling_	b_node.h	/^	int   left_sibling_;			\/\/ addr in disk for left  sibling$/;"	m	class:BNode
+level_	b_node.h	/^	char  level_;					\/\/ level of b-tree (level > 0)$/;"	m	class:BNode
+levy	random.cc	/^float levy(							\/\/ r.v. from Levy(gamma, delta)$/;"	f
+levy_cdf	random.cc	/^float levy_cdf(						\/\/ cdf of Levy(0, 1) in range (0, x]$/;"	f
+levy_pdf	random.h	/^inline float levy_pdf(				\/\/ pdf of Levy(1, 0)$/;"	f
+linear	util.cc	/^uint64_t linear(					\/\/ linear scan search$/;"	f
+linear_scan	ann.cc	/^int linear_scan(					\/\/ brute-force linear scan (data in disk)$/;"	f
+list_	pri_queue.h	/^	Result *list_;					\/\/ the list itself$/;"	m	class:MinK_List
+load	qalsh.cc	/^int QALSH::load(					\/\/ load index$/;"	f	class:QALSH
+load	qalsh_plus.cc	/^int QALSH_PLUS::load(				\/\/ load index$/;"	f	class:QALSH_PLUS
+load_root	b_tree.cc	/^void BTree::load_root() 		\/\/ load root of b-tree$/;"	f	class:BTree
+low_	kd_tree.h	/^	float *low_;					\/\/ rectangle lower bound$/;"	m	class:KD_Rect
+lsh_	qalsh_plus.h	/^	QALSH *lsh_;					\/\/ index of sample data objects$/;"	m	class:QALSH_PLUS
+lsh_	qalsh_plus.h	/^	QALSH *lsh_;$/;"	m	struct:Blocks
+m_	qalsh.h	/^	int   m_;						\/\/ number of hashtables$/;"	m	class:QALSH
+main	main.cc	/^int main(int nargs, char **args)$/;"	f
+max_key	pri_queue.h	/^	inline float max_key() { return (num_>=k_ ? list_[k_ - 1].key_ : MAXREAL); }$/;"	f	class:MinK_List
+min_key	pri_queue.h	/^	inline float min_key() { return (num_>0 ? list_[0].key_ : MAXREAL); }$/;"	f	class:MinK_List
+n_pts_	kd_node.h	/^	int n_pts_;						\/\/ number of data objects$/;"	m	class:KD_Leaf
+n_pts_	kd_tree.h	/^	int   n_pts_;					\/\/ number of data objects$/;"	m	class:KD_Tree
+n_pts_	qalsh.h	/^	int   n_pts_;					\/\/ cardinality$/;"	m	class:QALSH
+n_pts_	qalsh_plus.h	/^	int   n_pts_;					\/\/ number of data objects$/;"	m	class:QALSH_PLUS
+n_pts_	qalsh_plus.h	/^	int   n_pts_;$/;"	m	struct:Blocks
+new_cauchy_prob	random.h	/^inline float new_cauchy_prob(		\/\/ calc new cauchy probability$/;"	f
+new_flag_	block_file.h	/^	bool new_flag_;					\/\/ specifies if this is a new file$/;"	m	class:BlockFile
+new_gaussian_cdf	random.cc	/^float new_gaussian_cdf(				\/\/ cdf of N(0, 1) in range [-x, x]$/;"	f
+new_gaussian_prob	random.cc	/^float new_gaussian_prob(			\/\/ calc new gaussian probability$/;"	f
+new_levy_prob	random.cc	/^float new_levy_prob(				\/\/ calc new levy probability$/;"	f
+new_order_id_	qalsh_plus.h	/^	int   *new_order_id_;			\/\/ new order data id after kd-tree partition$/;"	m	class:QALSH_PLUS
+new_stable_prob	random.cc	/^void new_stable_prob(				\/\/ calc new stable probability$/;"	f
+num_	pri_queue.h	/^	int    num_;					\/\/ number of key current active$/;"	m	class:MinK_List
+num_blocks_	block_file.h	/^	int num_blocks_;				\/\/ total num of blocks$/;"	m	class:BlockFile
+num_blocks_	qalsh_plus.h	/^	int   num_blocks_;				\/\/ number of blocks $/;"	m	class:QALSH_PLUS
+num_entries_	b_node.h	/^	int   num_entries_;				\/\/ number of entries in this node$/;"	m	class:BNode
+num_keys_	b_node.h	/^	int num_keys_;					\/\/ number of keys$/;"	m	class:BLeafNode
+object_id_	kd_node.h	/^	int *object_id_;				\/\/ data objects id$/;"	m	class:KD_Leaf
+object_id_	kd_tree.h	/^	int   *object_id_;				\/\/ data objects id$/;"	m	class:KD_Tree
+orig_cauchy_prob	random.h	/^inline float orig_cauchy_prob(		\/\/ calc original cauchy probability$/;"	f
+orig_gaussian_prob	random.cc	/^float orig_gaussian_prob(			\/\/ calc original gaussian probability$/;"	f
+orig_levy_prob	random.cc	/^float orig_levy_prob(				\/\/ calc original levy probability$/;"	f
+orig_stable_prob	random.cc	/^void orig_stable_prob(				\/\/ calc orig stable probability$/;"	f
+p_	qalsh.h	/^	float p_;						\/\/ the p value of L_p norm$/;"	m	class:QALSH
+p_	qalsh_plus.h	/^	float p_;						\/\/ l_p distance$/;"	m	class:QALSH_PLUS
+p_stable	random.cc	/^float p_stable(						\/\/ r.v. from p-satble distr.$/;"	f
+page_io_	qalsh.h	/^	uint64_t page_io_;				\/\/ io for scanning pages$/;"	m	class:QALSH
+path_	qalsh.h	/^	char  path_[300];				\/\/ index path$/;"	m	class:QALSH
+path_	qalsh_plus.h	/^	char  path_[200];				\/\/ index path$/;"	m	class:QALSH_PLUS
+plane_split	kd_tree.cc	/^void KD_Tree::plane_split(			\/\/ split points by a plane$/;"	f	class:KD_Tree
+prob_of_cauchy	random.cc	/^void prob_of_cauchy()				\/\/ curve of p1, p2 vs. w under cauchy$/;"	f
+prob_of_gaussian	random.cc	/^void prob_of_gaussian()				\/\/ curve of p1, p2 vs. w under gaussian$/;"	f
+prob_of_levy	random.cc	/^void prob_of_levy()					\/\/ curve of p1, p2 vs. w under levy$/;"	f
+put_bytes	block_file.h	/^	inline void put_bytes(const char *bytes, int num) \/\/ write <bytes> of length <num>$/;"	f	class:BlockFile
+ratio_	qalsh.h	/^	float ratio_;					\/\/ approximation ratio$/;"	m	class:QALSH
+read_bin_data	util.cc	/^int read_bin_data(					\/\/ read data (binary) from disk$/;"	f
+read_block	block_file.cc	/^bool BlockFile::read_block(			\/\/ read a <block> from <index>$/;"	f	class:BlockFile
+read_buffer_from_page	util.cc	/^inline int read_buffer_from_page(	\/\/ read buffer from page$/;"	f
+read_data_from_buffer	util.cc	/^inline void read_data_from_buffer(	\/\/ read data from buffer$/;"	f
+read_data_new_format	util.cc	/^int read_data_new_format(			\/\/ read data with new format from disk$/;"	f
+read_from_buffer	b_node.cc	/^void BIndexNode::read_from_buffer( 	\/\/ read a b-node from buffer$/;"	f	class:BIndexNode
+read_from_buffer	b_node.cc	/^void BLeafNode::read_from_buffer(	\/\/ read a b-node from buffer$/;"	f	class:BLeafNode
+read_from_buffer	b_node.h	/^	virtual void read_from_buffer(const char *buf) {}$/;"	f	class:BNode
+read_ground_truth	util.cc	/^int read_ground_truth(				\/\/ read ground truth results from disk$/;"	f
+read_header	b_tree.h	/^	inline int read_header(const char *buf) { \/\/ read <root> from buffer$/;"	f	class:BTree
+read_header	block_file.cc	/^void BlockFile::read_header(		\/\/ read remain bytes excluding header$/;"	f	class:BlockFile
+read_params	qalsh.cc	/^int QALSH::read_params()			\/\/ read parameters from disk$/;"	f	class:QALSH
+read_params	qalsh_plus.cc	/^int QALSH_PLUS::read_params()		\/\/ read parameters$/;"	f	class:QALSH_PLUS
+read_txt_data	util.cc	/^int read_txt_data(					\/\/ read data (text) from disk$/;"	f
+reset	pri_queue.h	/^	inline void reset() { num_ = 0; }$/;"	f	class:MinK_List
+rho_of_cauchy	random.cc	/^void rho_of_cauchy()				\/\/ curve of rho vs. w under cauchy$/;"	f
+rho_of_gaussian	random.cc	/^void rho_of_gaussian()				\/\/ curve of rho vs. w under gaussian$/;"	f
+rho_of_levy	random.cc	/^void rho_of_levy()					\/\/ curve of rho vs. w under levy$/;"	f
+right_sibling_	b_node.h	/^	int   right_sibling_;			\/\/ addr in disk for right sibling$/;"	m	class:BNode
+rkd_tree	kd_tree.cc	/^KD_Node* KD_Tree::rkd_tree(			\/\/ recursive build kd-tree$/;"	f	class:KD_Tree
+root_	b_tree.h	/^	int root_;						\/\/ address of disk for root$/;"	m	class:BTree
+root_	kd_tree.h	/^	KD_Node *root_;					\/\/ root of kd-tree$/;"	m	class:KD_Tree
+root_ptr_	b_tree.h	/^	BNode *root_ptr_;				\/\/ pointer of root$/;"	m	class:BTree
+sample_id_	qalsh_plus.h	/^	int   *sample_id_;				\/\/ sample data id$/;"	m	class:QALSH_PLUS
+sample_id_to_block_	qalsh_plus.h	/^	std::unordered_map<int, int> sample_id_to_block_; \/\/ sample data id to block$/;"	m	class:QALSH_PLUS
+search	kd_node.cc	/^void KD_Leaf::search(				\/\/ tree search$/;"	f	class:KD_Leaf
+search	kd_node.cc	/^void KD_Split::search(				\/\/ tree search$/;"	f	class:KD_Split
+search	kd_tree.cc	/^void KD_Tree::search(				\/\/ k-NN search$/;"	f	class:KD_Tree
+seek_block	block_file.h	/^	inline void seek_block(int bnum) \/\/ move <fp_> to the right with <bnum>$/;"	f	class:BlockFile
+set_header	block_file.cc	/^void BlockFile::set_header(			\/\/ set remain bytes excluding header$/;"	f	class:BlockFile
+set_left_sibling	b_node.h	/^	inline void set_left_sibling(int left_sibling) { $/;"	f	class:BNode
+set_right_sibling	b_node.h	/^	inline void set_right_sibling(int right_sibling) { $/;"	f	class:BNode
+size	pri_queue.h	/^	inline int size() { return num_; }$/;"	f	class:MinK_List
+size_	qalsh.h	/^	int size_;						\/\/ size for one scan$/;"	m	struct:Page
+sl_midpt_split	kd_tree.cc	/^void KD_Tree::sl_midpt_split(		\/\/ sliding mid-object split rule$/;"	f	class:KD_Tree
+son_	b_node.h	/^	int *son_;						\/\/ addr of son node$/;"	m	class:BIndexNode
+traversal	kd_node.cc	/^void KD_Leaf::traversal(			\/\/ traversal kd-tree$/;"	f	class:KD_Leaf
+traversal	kd_node.cc	/^void KD_Split::traversal(			\/\/ traversal kd-tree$/;"	f	class:KD_Split
+traversal	kd_tree.cc	/^void KD_Tree::traversal(			\/\/ traversal kd-tree to get leaf info$/;"	f	class:KD_Tree
+trees_	qalsh.h	/^	BTree **trees_;					\/\/ B+ Trees$/;"	m	class:QALSH
+uniform	random.h	/^inline float uniform(				\/\/ r.v. from Uniform(min, max)$/;"	f
+update_left_buffer	qalsh.cc	/^void QALSH::update_left_buffer(		\/\/ update left buffer$/;"	f	class:QALSH
+update_radius	qalsh.cc	/^float QALSH::update_radius(			\/\/ update radius$/;"	f	class:QALSH
+update_right_buffer	qalsh.cc	/^void QALSH::update_right_buffer(	\/\/ update right buffer$/;"	f	class:QALSH
+usage	main.cc	/^void usage() 						\/\/ usage of the package$/;"	f
+w_	qalsh.h	/^	float w_;						\/\/ bucket width$/;"	m	class:QALSH
+write_block	block_file.cc	/^bool BlockFile::write_block(		\/\/ write a <block> into <index>$/;"	f	class:BlockFile
+write_buffer_to_page	util.cc	/^inline int write_buffer_to_page(	\/\/ write buffer to one page$/;"	f
+write_data_new_form	util.cc	/^int write_data_new_form(			\/\/ write dataset with new format$/;"	f
+write_data_to_buffer	util.cc	/^inline void write_data_to_buffer(	\/\/ write data to buffer$/;"	f
+write_header	b_tree.h	/^	inline int write_header(char *buf) { \/\/ write <root> into buffer$/;"	f	class:BTree
+write_params	qalsh.cc	/^int QALSH::write_params()			\/\/ write parameters to disk$/;"	f	class:QALSH
+write_params	qalsh_plus.cc	/^int QALSH_PLUS::write_params()		\/\/ write parameters$/;"	f	class:QALSH_PLUS
+write_to_buffer	b_node.cc	/^void BIndexNode::write_to_buffer( 	\/\/ write info of node into buffer$/;"	f	class:BIndexNode
+write_to_buffer	b_node.cc	/^void BLeafNode::write_to_buffer(	\/\/ write a b-node into buffer$/;"	f	class:BLeafNode
+write_to_buffer	b_node.h	/^	virtual void write_to_buffer(char *buf) {}$/;"	f	class:BNode
+zeta_	qalsh.h	/^	float zeta_;					\/\/ symmetric factor of p-stable distr.$/;"	m	class:QALSH
+~BIndexNode	b_node.cc	/^BIndexNode::~BIndexNode()			\/\/ destructor$/;"	f	class:BIndexNode
+~BLeafNode	b_node.cc	/^BLeafNode::~BLeafNode()				\/\/ destructor$/;"	f	class:BLeafNode
+~BNode	b_node.cc	/^BNode::~BNode()						\/\/ destructor$/;"	f	class:BNode
+~BTree	b_tree.cc	/^BTree::~BTree()						\/\/ destructor$/;"	f	class:BTree
+~BlockFile	block_file.cc	/^BlockFile::~BlockFile()				\/\/ destructor$/;"	f	class:BlockFile
+~Blocks	qalsh_plus.h	/^	~Blocks() { if (lsh_ != NULL) { delete lsh_; lsh_ = NULL; } }$/;"	f	struct:Blocks
+~KD_Leaf	kd_node.cc	/^KD_Leaf::~KD_Leaf()					\/\/ destructor$/;"	f	class:KD_Leaf
+~KD_Node	kd_node.h	/^	virtual ~KD_Node() {}			\/\/ virtual destructor$/;"	f	class:KD_Node
+~KD_Rect	kd_tree.cc	/^KD_Rect::~KD_Rect()					\/\/ destructor$/;"	f	class:KD_Rect
+~KD_Split	kd_node.cc	/^KD_Split::~KD_Split()				\/\/ destructor$/;"	f	class:KD_Split
+~KD_Tree	kd_tree.cc	/^KD_Tree::~KD_Tree()					\/\/ destructor$/;"	f	class:KD_Tree
+~MinK_List	pri_queue.cc	/^MinK_List::~MinK_List() 			\/\/ destructor$/;"	f	class:MinK_List
+~QALSH	qalsh.cc	/^QALSH::~QALSH()						\/\/ destructor$/;"	f	class:QALSH
+~QALSH_PLUS	qalsh_plus.cc	/^QALSH_PLUS::~QALSH_PLUS()			\/\/ destructor$/;"	f	class:QALSH_PLUS
